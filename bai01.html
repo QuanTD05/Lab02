@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        /* Create four equal columns that floats next to each other */
+        .column {
+            float: left;
+            width: 25%;
+            padding: 20px;
+        }
+
+        /* Clear floats after the columns */
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @media screen and (min-width: 320px) {
+            .column {
+                width: 100%;
+            }
+
+            body {
+                background-color: red;
+
+                color: white;
+            }
+        }
+
+        @media screen and (min-width: 768px) {
+            .column {
+                width: 100%;
+            }
+
+            body {
+                background-color: blue;
+
+                color: white;
+            }
+        }
+
+        @media screen and (min-width: 1024px) {
+            .column {
+                width: 100%;
+            }
+
+            body {
+                background-color: #8d8dd3;
+
+                color: white;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h2>To understand this example, you should open this page on a phone or a tablet</h2>
+    <div class="row">
+        <div class="column" style="background-color:#aaa;">
+            <h2>Column 1</h2>
+            <p>Some text..</p>
+        </div>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sed nulla vel nisl dictum maximus sed
+            non
+            nunc. Duis suscipit eros sit amet egestas aliquam. Praesent neque eros, euismod at magna semper, suscipit
+            egestas felis. In hac habitasse platea dictumst. In vitae mi at turpis molestie rutrum. In blandit eros
+            vitae
+            neque faucibus semper. Aenean varius, nunc at imperdiet varius, sapien dolor convallis nisl, ac pellentesque
+            lectus ligula commodo est. Aliquam sit amet consequat erat. Nullam ultricies ipsum a turpis suscipit, eget
+            varius neque commodo. Donec cursus gravida lorem quis euismod. Sed rhoncus lectus sit amet semper placerat.
+            Aenean vulputate tellus sit amet eros eleifend facilisis. Mauris suscipit sollicitudin elit.
+
+            Nam et dictum turpis. Maecenas non aliquam dolor, tempus dapibus turpis. Nulla commodo pharetra vulputate.
+            Aenean aliquet luctus est quis lobortis. Nunc lobortis justo ac bibendum placerat. Nulla facilisi. Donec in
+            neque dolor. Quisque tortor libero, posuere ut odio ac, ultrices sollicitudin nunc.
+
+            Praesent porttitor, nisi sed tincidunt semper, nunc velit dignissim nunc, nec ornare arcu dui eu diam.
+            Maecenas
+            non nulla tellus. Vivamus eros orci, mattis in posuere sed, bibendum non eros. Suspendisse non enim ut lorem
+            feugiat eleifend. Nullam leo elit, porttitor eget pretium sodales, lobortis viverra metus. Aenean commodo
+            turpis
+            vel lorem sodales dapibus. Donec neque magna, interdum vel facilisis eu, sollicitudin pretium eros. Nam
+            rutrum
+            arcu ex, ut maximus sapien efficitur non. Ut aliquam non urna sed posuere. Mauris sagittis, nibh at gravida
+            venenatis, dui libero imperdiet lorem, sit amet imperdiet nunc dolor quis nisi. Praesent vitae augue
+            ullamcorper, pretium purus eu, eleifend nisi. Donec varius tortor ipsum, ac aliquam turpis ullamcorper in.
+            Sed
+            et turpis sit amet nibh mollis mollis at lacinia diam.
+
+            Nulla vitae purus tellus. Phasellus blandit metus dignissim, egestas nulla vitae, fermentum est.
+            Pellentesque
+            ullamcorper dapibus nulla, nec ultricies nunc maximus at. Nam elementum sit amet enim eget pulvinar. Morbi
+            mi
+            libero, fringilla ac enim porta, blandit interdum erat. Mauris in fermentum lacus, finibus ultricies sapien.
+            Quisque pharetra consequat facilisis. Vivamus id purus sit amet libero gravida efficitur eget non tellus.
+            Sed
+            tempor mi et ligula finibus, et suscipit est aliquam. Donec quis elit non erat hendrerit ullamcorper ut
+            venenatis magna.
+
+            Duis in nisl urna. In hac habitasse platea dictumst. Duis est leo, rhoncus nec luctus sollicitudin, iaculis
+            non
+            ligula. Aliquam sagittis, quam sit amet faucibus gravida, ligula enim dignissim lacus, non mattis quam
+            tortor at
+            metus. Morbi laoreet a libero a maximus. Suspendisse pulvinar justo sapien, vel porta lectus mattis ac.
+            Donec
+            quis nunc vestibulum eros molestie hendrerit. Sed ut mi quis diam pharetra consectetur in ac dui. Vestibulum
+            at
+            sem rutrum, fringilla nibh sit amet, tincidunt mi. Nulla eget sagittis orci. Vestibulum ante ipsum primis in
+            faucibus orci luctus et ultrices posuere cubilia curae;</p>
+</body>
+
+</html>

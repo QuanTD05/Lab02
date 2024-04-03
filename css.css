@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: left;
+}
+.section {
+    background-color: #FF9800;
+    max-width: 100%;
+    margin: auto; 
+    text-align: center;
+    
+}
+
+.footer {
+    background-color: #da952d;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+@media (min-width: 769px) {
+    .section {
+        
+        width: 450px;
+        float: none; 
+    }
+}
